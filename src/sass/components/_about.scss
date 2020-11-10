@@ -1,0 +1,172 @@
+.about {
+    padding-top: 86px;
+
+    &__wrapper {
+        max-width: 1435px;
+        margin: 0 auto;
+        
+    }
+
+    &-fund {
+        display: flex;
+        justify-content: space-between;
+
+        &__wrap {
+            width: 607px;
+        }
+
+        &__title {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 37px;
+            margin-top: 16px;
+            margin-bottom: 29px;
+        }
+
+        &__subtitle {
+            color: #000;
+            font-size: 18px;
+            line-height: 22px;
+
+            &:after {
+                content: "";
+                display: inline-block;
+                width: 37%;
+                height: 2px;
+                margin-top: 36px;
+                background-color: #92BEDE;
+            }
+        }
+
+        &__img {
+            background-image: url(../img/about-fond.jpg);
+            background-size: cover;
+            border-radius: 7px;
+            width: 464px;
+            height: 277px;
+        }
+    }
+
+    &-plans {
+        margin-top: 42px;
+
+        &__wrap {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .plans-list__container {
+            display: block;
+            max-width: 562px;
+
+            .plans-list__wrapper {
+                margin-bottom: 64px;
+            }
+        }
+
+        .plans-list {
+            margin-bottom: 64px;
+            z-index: 1;
+
+            &__window {
+                display: flex;
+                align-items: center;
+                margin-bottom: 41px;
+                position: relative;
+
+                .plans-list__popup {
+                    display: none;
+                }
+            }    
+            
+            &__window--hover:hover {
+                cursor: pointer;
+
+                .icon-hover-arrow {
+                    transform: rotate(180deg);
+                }
+
+                .plans-list__popup {
+                    display: block;  
+                    top: 130%;
+                    width: 562px;
+                    font-weight: 600;
+                    font-size: 18px;
+                    padding: 10px;
+                    line-height: 22px;
+                    color: #000;
+                    border-radius: 5px;
+                    border: 1px solid #FFFFFF;
+                    position: absolute;
+                    box-shadow: 0px 4px 68px 1px rgba(103, 116, 125, 0.35);
+                    background-color: #FFFFFF;
+                    z-index: 100;
+                }
+            }
+
+            &__name {
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 30px;
+                margin-left: 20px;
+            }
+        }
+
+        .about-adress {
+            display: flex;
+
+            &__img {
+                background-image: url(../img/about-plans-2.jpg);
+                background-size: cover;
+                width: 465px;
+                height: 291px;
+            }
+
+            &__location {
+                font-size: 18px;
+                line-height: 22px;
+                color: #000;
+                margin-left: 121px;
+                margin-right: 61px;
+            }
+        }
+    }
+
+    &-statistic {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 160px;
+
+        &__container {
+            position: relative;
+            text-align: center;
+
+            &:not(:last-child)::after {
+                content: "";
+                width: 87px;
+                position: absolute;
+                background-color: #92BEDE;
+                display: block;
+                border: 1px solid #92BEDE;
+                transform: rotate(90deg);
+                right: -65%;
+                top: 41%;
+            }
+        }
+
+        .statistic-title {
+            font-weight: 700;
+            font-size: 33px;
+            line-height: 40px;
+            color: #92BEDE;
+
+        }
+
+        .statistic-subtitle {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            margin-top: 16px;
+        }
+    }
+}

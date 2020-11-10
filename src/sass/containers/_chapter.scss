@@ -1,0 +1,17 @@
+.chapter {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #183245;
+    
+
+    &:after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        display: block;
+        background-color: #92BEDE;
+        margin-top: 12px;
+    }
+}

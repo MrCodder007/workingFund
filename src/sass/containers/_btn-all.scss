@@ -1,0 +1,25 @@
+.btn-all {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 57px;
+    margin-top: 61px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #92BEDE;
+    border-radius: 4px;
+    border: 2px solid #92BEDE;
+    background-color: transparent;
+
+    &:hover {
+        background-color: #92BEDE;
+        color: #FFFFFF;
+    }
+
+    &:focus {
+        background-color: #739FBE;
+    }
+}

@@ -1,0 +1,163 @@
+.project {
+    margin-top: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 135px;
+
+    &__wrapper {
+        position: relative;
+        width: 1435px;
+        margin: 0 auto;
+
+        .project-list__wrap {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 45px;
+        }
+    }
+
+    &-list {
+        max-width: 465px;
+        border-radius: 6px;
+        
+        &:hover {
+            box-shadow: 0px 4px 68px 1px rgba(103, 116, 125, 0.35);
+        }
+
+
+        &__img {
+            width: 465px;
+            height: 326px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-top-right-radius: 6px;
+            border-top-left-radius: 6px;
+            background-color: #FFFFFF;
+        }
+
+        &__img1{
+            background-image: url(../img/project-img-1.jpg);
+            
+        }
+
+        &__img2 {
+            background-image: url(../img/project-img-2.jpg);
+        }
+
+        &__img3 {
+            background-image: url(../img/project-img-3.jpg);
+        }
+
+        &__item {
+            background-color: #FFFFFF;
+            padding-top: 7px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 20px;
+            min-height: 282px;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+
+            .item-slide {
+                display: flex;
+                justify-content: space-between;
+
+                &__img {
+                    width: 81px;
+                    height: 46px;
+                }
+
+                &__img1 {
+                    background-image: url(../img/item-slide1.jpg);
+                }
+
+                &__img2 {
+                    background-image: url(../img/item-slide2.jpg);
+                }
+
+                &__img3 {
+                    background-image: url(../img/item-slide3.jpg);
+                }
+
+                &__img4 {
+                    background-image: url(../img/item-slide4.jpg);
+                }
+
+                &__img5 {
+                    background-image: url(../img/item-slide5.jpg);
+                }
+            }
+            
+            .item-description {
+                margin-top: 25px;
+
+                &__title {
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #000;
+                }
+
+                &__sub {
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000;
+                    margin: 16px 0;
+                }
+
+                .description-sub {
+                    display: flex;
+
+                    .sub-text {
+                        margin-right: 65px;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: #000;
+
+                        span {
+                            font-weight: 400;
+                        }
+
+                        &__location {
+ 
+                        }
+
+                        &__stage {
+
+                        }
+
+                        &__date {
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 28px;
+                            color: #000;
+
+                            span {
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .all-projects {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                text-decoration: none;
+                font-weight: 700;
+                margin-top: 39px;
+                font-size: 16px;
+                line-height: 19px;
+                color: #183245;
+
+                &__text {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
