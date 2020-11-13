@@ -278,10 +278,102 @@
           </div>
         </div>
         <a href="#" class="btn-all">Всі новини</a>
+      </section><!-- contact -->
+      <section class="contact">
+        <div class="contact__wrap">
+          <div class="contact-list">
+            <h4 class="contact-list__title">Контакти</h4>
+            <div class="contact-list__item"><svg class="icon icon-location-mark ">
+                <use xlink:href="img/sprite.svg#icon-location-mark"></use>
+              </svg><a class="item-link" href="https://www.google.com.ua/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%91%D0%BE%D0%BB%D1%81%D1%83%D0%BD%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0,+2,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4213737,30.5503271,17z/data=!4m5!3m4!1s0x40d4cf6de3078cdf:0x8e473c8353095fb2!8m2!3d50.4213737!4d30.5525159" target="_blank">м. Київ, вул. Болсуновська 2, офіс 233.</a>
+            </div>
+            <div class="contact-list__item"><svg class="icon icon-message-mark ">
+                <use xlink:href="img/sprite.svg#icon-message-mark"></use>
+              </svg><a class="item-link" href="mailto:corporate@qirim.ua">corporate@qirim.ua</a>
+            </div>
+            <div class="contact-list__item"><svg class="icon icon-phone-mark ">
+                <use xlink:href="img/sprite.svg#icon-phone-mark"></use>
+              </svg>
+              <div class="item-link__wrap">
+                <a class="item-link" href="tel:123-456-7890">+(00) 852 852 9633</a><br>
+                <a class="item-link" href="tel:123-456-7890">+(00) 852 852 9644</a>
+              </div>
+            </div>
+            <div class="social-list">
+              <a href="#" class="social-list__item"><svg class="icon icon-logo-instagram contact-social">
+                  <use xlink:href="img/sprite.svg#icon-logo-instagram"></use>
+                </svg></a>
+              <a href="#" class="social-list__item"><svg class="icon icon-logo-facebook contact-social">
+                  <use xlink:href="img/sprite.svg#icon-logo-facebook"></use>
+                </svg></a>
+              <a href="#" class="social-list__item"><svg class="icon icon-logo-twitter contact-social">
+                  <use xlink:href="img/sprite.svg#icon-logo-twitter"></use>
+                </svg></a>
+            </div>
+          </div>
+          <form class="contact-feedback__wrapper">
+            <div class="contact-feedback">
+              <h4 class="contact-feedback__title">Зворотній зв’язок</h4>
+              <div class="form">
+                <div class="form__name">
+                  <input class="input-name" type="text" placeholder="ВАШЕ ІМ’Я *" id="name" required>
+                  <label for="name"></label>
+                </div>
+                <div class="form__email">
+                  <input class="input-email" type="email" placeholder="ВАШ EMAIL  *" id="email" required>
+                  <label for="email"></label>
+                </div>
+              </div>
+              <div class="form-phone">
+                <input class="input-phone" type="tel" id="phone" placeholder="НОМЕР ТЕЛЕФОНА" required>
+                <label for="phone"></label>
+              </div>
+              <div class="form-text">
+                <textarea class="input-text" id="message" placeholder="ТЕКСТ"></textarea>
+              </div>
+              <button type="submit" class="feedback-send-button">Відіслати</button>
+            </div>
+          </form>
+          <div class="underline"></div>
+        </div>
       </section>
     </main>
     <!--END main-->
     <!--BEGIN footer-->
+    <footer class="page-footer">
+      <div class="page-footer__wrap">
+        <nav class="footer-nav-menu">
+          <a href="#" class="footer-nav-menu__icon">
+            <img src="../img/icon-tamga.png" alt="icon-tamga">
+          </a>
+          <ul class="footer-nav-menu__list">
+            <li class="footer-nav-menu__item">
+              <a href="" class="footer-nav-menu__link">Головна</a>
+            </li>
+            <li class="footer-nav-menu__item">
+              <a href="" class="footer-nav-menu__link">Про нас</a>
+            </li>
+            <li class="footer-nav-menu__item">
+              <a href="" class="footer-nav-menu__link">Новини</a>
+            </li>
+            <li class="footer-nav-menu__item">
+              <a href="" class="footer-nav-menu__link">Проекти</a>
+            </li>
+            <li class="footer-nav-menu__item">
+              <a href="" class="footer-nav-menu__link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <form class="page-footer__form" action="#">
+          <h4 class="form__title">Підпишитесь на наші новини</h4>
+          <div class="form-subscribe">
+            <input class="form-subscribe__email" type="email" placeholder="Ваш email адрес…" id="footer-email" required>
+            <label for="footer-email"></label>
+            <button class="form-subscribe__btn" type="submit">Підписатись</button>
+          </div>
+        </form>
+      </div>
+    </footer>
     <!--END footer-->
     <!--LOAD SCRIPTS-->
     <script type="text/javascript" src="js/app.js"></script>

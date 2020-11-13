@@ -126,8 +126,10 @@
                 font-size: 18px;
                 line-height: 22px;
                 color: #000;
-                margin-left: 121px;
-                margin-right: 61px;
+                width: 363px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
             }
         }
     }
