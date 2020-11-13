@@ -139,6 +139,17 @@
         transform: rotate(-90deg);
         text-decoration: none;
 
+        &:hover {
+            
+            .arrow-down {
+                fill: #92BEDE;
+            }
+
+            .scrolling-text {
+                color: #92BEDE;
+            }
+        }
+
         .scrolling-text {
             margin-left: 21px;
         }
@@ -146,6 +157,5 @@
         .arrow-down {
             transform: rotate(180deg);
         }
-
     }
 }

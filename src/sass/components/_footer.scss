@@ -24,7 +24,6 @@
 
         &__item {
 
-
             &:not(:last-child) {
                 margin-right: 50px;
             }
@@ -36,6 +35,10 @@
             letter-spacing: 0.349583px;
             color: #000;
             text-decoration: none;
+
+            &:hover {
+                color: #92BEDE;
+            }
         }
     }
 
