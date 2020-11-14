@@ -54,6 +54,7 @@
     }
 
     .hero {
+        position: relative;
         width: 1123px;
         min-height: 938px;
         background-image: url(../img/bg-img-hero.png);
@@ -84,6 +85,80 @@
                     color: #FFFFFF;
                     background-color: #92BEDE;
                 }
+            }
+        }
+
+        &-slider__wrap {
+            position: absolute;
+            width: 364px;
+            height: 183px;
+            bottom: 56px;
+            right: 101px;
+
+            
+            .slick-dots {
+                position: static;
+
+                & li button:before {
+                    width: 6px;
+                    height: 6px;
+                    background: transparent;
+                    border: 1px solid #FFFFFF;
+                }
+            }
+
+            .slick-dots li.slick-active button:before {
+                background: #FFFFFF;
+            }
+        }
+
+        &-slider {
+            display: flex !important;
+            min-height: 150px;
+            color: #FFFFFF;
+            padding-top: 20px;
+            padding-left: 25px;
+            padding-bottom: 20px;
+            text-decoration: none;
+            backdrop-filter: blur(15px);
+            border-radius: 5px;
+            background-color: rgba(133, 178, 210, 0.3);
+
+            &__img {
+                background-image: url(../img/hero-slider-min.jpg);
+                border-radius: 5px;
+                background-size: cover;
+                width: 110px;
+                height: 110px;
+            }
+
+            &__inner-wrap {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-bottom: 2px;
+                max-width: 163px;
+                margin-left: 14px;
+                margin-top: 2px;
+                margin-right: 11px;
+            }
+
+            &__name {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                
+            }
+
+            &__text {
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            .arrow-forward-slider {
+                fill: #FFFFFF;
+                width: 24px;
+                height: 24px;
             }
         }
     }
