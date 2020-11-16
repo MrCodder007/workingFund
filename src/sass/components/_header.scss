@@ -176,7 +176,6 @@
     align-items: center;
     width: 178px;
     height: 100vh;
-    // transition: all .5s ease-in-out;
 
     &__toggler {
         display: flex;
@@ -255,7 +254,7 @@
     background-color: #F4F5F9;
     max-width: 435px;
     padding-left: 73px;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     z-index: 999999999;
     transition: all .5s ease-in-out;
@@ -340,7 +339,7 @@
     }
 
     & + .content-main {
-        // padding-left: 178px;
+        margin-left: 178px;
     }
 }
 

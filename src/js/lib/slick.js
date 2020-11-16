@@ -12,7 +12,7 @@ $('.hero-slider__wrap').slick({
 $('.project-list__wrap').slick({
     arrows: true,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll:3
   });
 
   $('.project-list__img').slick({
@@ -21,6 +21,7 @@ $('.project-list__wrap').slick({
     fade: true,
     asNavFor: '.item-slide'
   });
+  
   $('.item-slide').slick({
     slidesToShow: 5,
     asNavFor: '.project-list__img',
@@ -29,3 +30,5 @@ $('.project-list__wrap').slick({
     centerMode: true,
     focusOnSelect: true
   });
+
+  
