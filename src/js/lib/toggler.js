@@ -1,0 +1,20 @@
+var navbar = document.querySelector(".nav-menu")
+var ham = document.querySelector(".nav-menu__toggler")
+
+// toggles hamburger menu in and out when clicking on the hamburger
+function toggleHamburger(){
+  navbar.classList.toggle("nav-menu--active")
+  ham.classList.toggle("nav-menu__toggler--active")
+}
+
+ham.addEventListener("click", toggleHamburger)
+
+// toggle when clicking on links
+
+// METHOD 1
+var menuLinks = document.querySelectorAll(".menuLink")
+menuLinks.forEach( 
+  function(menuLink) { 
+    menuLink.addEventListener("click", toggleHamburger) 
+  }
+)

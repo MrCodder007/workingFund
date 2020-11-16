@@ -71,18 +71,20 @@
     }
 
     &-list {
-        max-width: 465px;
+        max-width: 410px;
         border-radius: 6px;
         
         &:hover {
             height: 100%;
-            box-shadow: 0px 4px 68px 1px rgba(103, 116, 125, 0.35);
+            box-shadow: 0px 4px 18px 1px rgba(103, 116, 125, 0.35);
+            // transform: translate3d(5px, 5px, 5px);
         }
 
 
         &__img {
-            width: 465px;
-            height: 326px;
+            max-width: 410px;
+            height: auto;
+            border-radius: 6px;
             background-size: contain;
             background-repeat: no-repeat;
             border-top-right-radius: 6px;

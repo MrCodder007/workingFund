@@ -131,9 +131,11 @@
                 line-height: 22px;
                 color: #000;
                 width: 363px;
+                
+                padding-left: 120px;
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: space-evenly;
             }
         }
     }
