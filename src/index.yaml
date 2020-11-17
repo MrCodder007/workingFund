@@ -2,4 +2,5 @@ ProjectTitle: fond-crimea-project
 
 PageList:
 - file: page.html
+- file: inner-about.html
   ready: 50

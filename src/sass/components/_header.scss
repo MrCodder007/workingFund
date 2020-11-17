@@ -129,11 +129,22 @@
             background-color: rgba(133, 178, 210, 0.3);
 
             &__img {
-                background-image: url(../img/hero-slider-min.jpg);
                 border-radius: 5px;
                 background-size: cover;
                 width: 110px;
                 height: 110px;
+            }
+
+            &__img1 {
+                background-image: url(../img/hero-slider-min.jpg);
+            }
+
+            &__img2 {
+                background-image: url(../img/hero-slider-min-1.jpg);
+            }
+
+            &__img3 {
+                background-image: url(../img/hero-slider-min-2.jpg);
             }
 
             &__inner-wrap {
@@ -340,7 +351,8 @@
     }
 
     .nav-menu__socials {
-        display: none;
+        display: flex;
+        flex-direction: row;
     }
 
     .burger-title {

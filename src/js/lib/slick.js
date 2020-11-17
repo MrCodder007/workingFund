@@ -12,23 +12,32 @@ $('.hero-slider__wrap').slick({
 $('.project-list__wrap').slick({
     arrows: true,
     slidesToShow: 3,
-    slidesToScroll:3
+    slidesToScroll: 1
   });
 
-  $('.project-list__img').slick({
-    slidesToShow: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.item-slide'
-  });
+  let newsCards = $('.project-list')
+
+  newsCards.each(function (idx) {
+    const addedClass = `news-card--${idx}`;
+    $(this).addClass(addedClass);
   
-  $('.item-slide').slick({
-    slidesToShow: 5,
-    asNavFor: '.project-list__img',
-    dots: false,
-    arrows: false,
-    centerMode: true,
-    focusOnSelect: true
+    $(this).find('.project-list__img').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: `.${addedClass} .item-slide`
+    });
+
+    $(this).find('.item-slide').slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      asNavFor: `.${addedClass} .project-list__img`,
+      dots: false,
+      centerMode: true,
+      focusOnSelect: true
+    });
   });
+
 
   

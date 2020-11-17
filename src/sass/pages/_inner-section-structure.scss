@@ -1,0 +1,128 @@
+.about-structure-inner {
+    display: flex;
+    justify-content: flex-end;
+
+    .fund-structure {
+        max-width: 961px;
+        margin-left: 2%;
+
+        &__wrap {
+
+        }
+
+        &__title {
+            display: flex;
+            align-items: center;
+            margin-top: 133px;
+            margin-bottom: 20px;
+
+            .structure-title__name {
+                font-weight: 700;
+                margin-left: 18px;
+                font-size: 30px;
+                line-height: 37px;
+            }
+        }
+
+        &__subtitle {
+
+            .structure-subtitle__name {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                padding-left: 45px;
+                margin-top: 22px;
+            }
+        }
+
+        .structure-position {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 45px;
+            margin-top: 66px;
+
+            &__title {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                width: 178px;
+                margin-bottom: 50px;
+
+                &::after {
+                    content: "";
+                    width: 100%;
+                    height: 4px;
+                    display: block;
+                    background-color: #92bede;
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .structure-members__wrap {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 45px;
+        }
+
+        .structure-members {
+
+            &__name {
+                position: relative;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 36px;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 5px;
+                    height: 5px;
+                    background-color: #bebebe;
+                    border-radius: 50%;
+                    bottom: 44%;
+                    left: -10%;
+                }
+            }
+
+            .members__wrap {
+                margin-bottom: 20px;
+
+                span {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #A0A0A0;
+                    
+                }
+            }
+        }
+    }
+
+    .fund-duties {
+        width: 35vw;
+        min-height: 500px;
+        align-self: flex-end;
+        padding-left: 63px;
+        background: #FFFFFF;
+        border-radius: 9px;
+        margin-left: 50px;
+
+        &__wrap {
+            width: 23vw;
+        }
+
+        &__text {
+            padding-top: 22px;
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &__title {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            padding-top: 61px;
+        }
+    }
+}

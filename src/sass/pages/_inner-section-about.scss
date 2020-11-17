@@ -1,0 +1,15 @@
+.about-statistic-inner {
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+    width: 100%;
+    height: 418px;
+    background-image: url(../img/bg-about-statistic.png);
+    background-size: cover;
+
+    .about-statistic {
+        max-width: 1435px;
+        width: 100%;
+        align-self: baseline;
+    }
+}
