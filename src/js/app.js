@@ -1,12 +1,10 @@
-// import glider from './lib/glider';
-// import heroCarousel from "./lib/heroCarousel";
+import hover from './lib/hover';
 import sayHello from './lib/sayHello';
 import scrolling from './lib/scrolling';
 import toggler from './lib/toggler';
 import "./lib/slick";
 
-// glider();
-// heroCarousel();
+hover();
 sayHello();
 scrolling();
 toggler();
