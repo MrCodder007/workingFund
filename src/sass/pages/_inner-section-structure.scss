@@ -2,9 +2,13 @@
     display: flex;
     justify-content: flex-end;
 
+    &__wrapper {
+        display: flex;
+    }
+
     .fund-structure {
         max-width: 961px;
-        margin-left: 2%;
+        width: 100%;
 
         &__wrap {
 
@@ -15,6 +19,7 @@
             align-items: center;
             margin-top: 133px;
             margin-bottom: 20px;
+            padding-left: 10px;
 
             .structure-title__name {
                 font-weight: 700;
@@ -27,11 +32,23 @@
         &__subtitle {
 
             .structure-subtitle__name {
+                position: relative;
                 font-weight: 600;
                 font-size: 18px;
                 line-height: 22px;
                 padding-left: 45px;
                 margin-top: 22px;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 5px;
+                    height: 5px;
+                    background-color: #bebebe;
+                    border-radius: 50%;
+                    bottom: 44%;
+                    left: 3%;
+                }
             }
         }
 
@@ -66,6 +83,8 @@
         }
 
         .structure-members {
+            max-width: 178px;
+            width: 100%;
 
             &__name {
                 position: relative;
@@ -107,15 +126,34 @@
         background: #FFFFFF;
         border-radius: 9px;
         margin-left: 50px;
+        padding-bottom: 20px;
 
         &__wrap {
             width: 23vw;
         }
 
-        &__text {
+        &__main-text {
             padding-top: 22px;
             font-size: 18px;
             line-height: 22px;
+        }
+
+        &__text {
+            position: relative;
+            padding-top: 22px;
+            font-size: 18px;
+            line-height: 22px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 5px;
+                height: 5px;
+                background-color: #bebebe;
+                border-radius: 50%;
+                bottom: 28%;
+                left: -10%;
+            }
         }
 
         &__title {
