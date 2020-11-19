@@ -11,8 +11,8 @@
         display: flex;
         justify-content: space-between;
         height: 376px;
-        background-image: url(../img/bg-img-inner-header.png);
-        background-size: cover;
+        // background-image: url(../img/bg-img-inner-header.png);
+        // background-size: cover;
     }
 
     &__title {
@@ -55,5 +55,9 @@
             background-color: #92BEDE;
             color: #FFFFFF;
         }
+    }
+
+    .nav-menu--active + .main-header__title {
+        margin-left: 45.4vw;
     }
 }

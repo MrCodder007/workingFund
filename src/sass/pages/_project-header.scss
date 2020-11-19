@@ -1,0 +1,102 @@
+.project-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    height: 376px;
+    width: 100%;
+    background-size: cover;
+    z-index: 11111;
+
+    .bg-rgba {
+        z-index: -1;
+        width: 100%;
+        min-height: 376px;
+        position: absolute;
+        background-color: rgba(77, 77, 77, 0.74);
+    }
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        height: 376px;
+        // background-image: url(../img/bg-img-inner-header.png);
+        // background-size: cover;
+
+        .nav-menu__toggler {
+
+            &::before {
+                background-color: #FFFFFF;
+            }
+
+            &::after {
+                background-color: #FFFFFF;
+            }
+        }
+    }
+
+    &__main {
+        font-weight: 400;
+        align-self: center;
+        justify-self: center;
+        font-size: 30px;
+        line-height: 37px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    &__sub {
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 61px;
+    }
+
+    .header-languages {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 101px;
+
+        &__link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            background-color: #FFFFFF;
+            color: #92BEDE;
+            width: 39px;
+            height: 40px;
+            margin-top: 31px;
+            border-radius: 3px;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 19px;
+            margin-left: 3px;
+
+            &:focus {
+                color: #FFFFFF;
+                background-color: #92BEDE;
+            }
+        }
+
+        .chosen {
+            background-color: #92BEDE;
+            color: #FFFFFF;
+        }
+    }
+
+    .nav-menu--active + .project-header__main {
+        margin-left: 39.8vw
+    }
+}
+
+.bg-project-img1 {
+    
+}
+
+.bg-project-img2 {
+    background-image: url(../img/about-project-bg-2.png);
+}
+
+.bg-project-img3 {
+    background-image: url(../img/about-project-bg-3.png);
+}

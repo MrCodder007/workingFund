@@ -1,0 +1,140 @@
+.page-header {
+    min-height: fit-content;
+}
+
+.project-page {
+    height: 100vh;
+    display: flex;
+    max-width: 1920px;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+    .nav-menu {
+        
+        .nav-menu__toggler {
+
+            &:before,
+            &::after {
+                background-color: #FFFFFF;
+            }
+        }
+    }
+
+    .nav-menu__socials {
+        display: none;
+    }
+
+    .nav-menu--active {
+
+        .nav-menu__socials {
+            display: block;
+        }
+    }
+
+    .project-bg {
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 1224px;
+        height: 100vh;
+    }
+
+    .project-img1 {
+        background-image: url(../img/project-apart-block.png);
+    }
+
+    .project-img2 {
+        background-image: url(../img/project-complex-block.png);
+    }
+
+    .project-img3 {
+        background-image: url(../img/project-gymnasium-block.png);
+    }
+
+    .project-block {
+        width: 696px;
+
+          &__container {
+            width: 480px;
+            margin: 50px auto;
+            margin-bottom: 0;
+            
+            .project-stage-block {
+                display: flex;
+                justify-content: space-between;
+
+                p {
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #000000;
+
+                    span {
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+        &__undertitle {
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 37px;
+        }
+
+        &__title {
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 61px;
+            margin: 30px 0;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+            line-height: 22px;
+            color: #000;
+            margin-bottom: 82px;
+        }
+    }
+
+    .project-block__btns {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        .button-in {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 248px;
+            height: 57px;
+            background: #92BEDE;
+            box-shadow: 0px 11px 32px rgba(156, 177, 193, 0.32);
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+
+        .button-next {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #183245;
+
+            .bg-circle-arrow {
+                border-radius: 50%;
+                background-color: #92BEDE;
+                fill: #FFFFFF;
+            }
+
+            p { margin-right: 10px; }
+        }
+    }
+}
+

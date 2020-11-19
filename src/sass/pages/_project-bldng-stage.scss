@@ -1,0 +1,55 @@
+.building-stage {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    max-width: 1920px;
+
+    &__wrap {
+        max-width: 1435px;
+        margin-bottom: 70px;
+    }
+
+    .stage-faza {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 114px;
+        height: 57px;
+        background-color: #92BEDE;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        border-radius: 5px;
+        box-shadow: 0px 11px 32px rgba(156, 177, 193, 0.32);
+        margin-top: 70px;
+        margin-bottom: 35px;
+    }
+
+    .inline-cities {
+        display: flex;
+
+        .city-block {
+            
+            &:not(:last-child) {
+                margin-right: 140px;
+            }
+
+            h2 {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+            }
+
+            p {
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 37px;
+
+                span {
+                    font-weight: 400;
+                }
+            }
+        } 
+    }
+}

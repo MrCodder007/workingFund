@@ -1,0 +1,95 @@
+.project-portfolio {
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+
+    &__wrap {
+        max-width: 1435px;
+    }
+
+    &__img {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+
+        .kvartiri__img {
+            width: 710px;
+            height: 412px;
+            background-size: cover;
+            margin-top: 16px;
+        }
+
+        .kvartiri__img1 {
+            background-image: url(../img/portfolio-img1.jpg);
+        }
+
+        .kvartiri__img2 {
+            background-image: url(../img/portfolio-img2.jpg);
+        }
+
+        .kvartiri__img3 {
+            background-image: url(../img/portfolio-img3.jpg);
+        }
+
+        .kvartiri__img4 {
+            background-image: url(../img/portfolio-img4.jpg);
+        }
+
+        .kvartiri__img5 {
+            background-image: url(../img/portfolio-img5.jpg);
+        }
+
+        .kvartiri__img6 {
+            background-image: url(../img/portfolio-img6.jpg);
+        }
+
+        .complex__img1 {
+            background-image: url(../img/project-complex-1.jpg)
+        }
+
+        .complex__img2 {
+            background-image: url(../img/project-complex-2.jpg)
+        }
+
+        .complex__img3 {
+            background-image: url(../img/project-complex-3.jpg)
+        }
+
+        .complex__img4 {
+            background-image: url(../img/project-complex-4.jpg)
+        }
+
+        .complex__img5 {
+            background-image: url(../img/project-complex-5.jpg)
+        }
+
+        .complex__img6 {
+            background-image: url(../img/project-complex-6.jpg)
+        }
+
+        .school__img1 {
+            background-image: url(../img/school-gmnsia-img1.jpg)
+        }
+
+        .school__img2 {
+            background-image: url(../img/school-gmnsia-img2.jpg)
+        }
+
+        .school__img3 {
+            background-image: url(../img/school-gmnsia-img3.jpg)
+        }
+
+        .school__img4 {
+            background-image: url(../img/school-gmnsia-img4.jpg)
+        }
+
+        .school__img5 {
+            background-image: url(../img/school-gmnsia-img5.jpg)
+        }
+
+        .school__img6 {
+            background-image: url(../img/school-gmnsia-img6.jpg)
+        }
+    }
+}

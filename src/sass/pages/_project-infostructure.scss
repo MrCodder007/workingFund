@@ -1,0 +1,30 @@
+.project-infostructure {
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    
+    &__schema {
+        margin-top: 178px;
+    }
+
+    &__img {
+        width: 1432px;
+        height: 599px;
+        background-image: url(../img/project-schema.png);
+        background-size: cover;
+    }
+
+    &__img2 {
+        width: 1432px;
+        height: 599px;
+        background-image: url(../img/project-schema2.png);
+        background-size: cover;
+    }
+
+    &__img3 {
+        width: 1432px;
+        height: 599px;
+        background-image: url(../img/project-schema.png);
+        background-size: cover;
+    }
+}
