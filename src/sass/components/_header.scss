@@ -635,22 +635,32 @@
         width: 100%;
     }
 
-    .form__title {
-        font-size: 16px !important;
+    .page-footer__form .form__title {
+        font-size: 16px;
         text-align: center;
     }
 
-    .form-subscribe__btn {
-        margin-left: 0 !important;
-        width: 100% !important;
+    .page-footer__form .form-subscribe__btn {
+        margin-left: 0;
+        width: 100%;
         margin-top: 14px;
     }
 
-    .form-subscribe__email {
-        width: 100% !important;
+    .page-footer__form .form-subscribe__email {
+        width: 100%;
     }
 
-    .underline {
-        bottom: -37% !important;
+    .contact {
+
+        .underline {
+            bottom: -37%;
+        }
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1435px) {
+
+    .page-header__content .content-main__title {
+        font-size: 42px;
     }
 }
