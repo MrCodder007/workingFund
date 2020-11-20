@@ -401,9 +401,9 @@
                 background-color: rgb(230, 233, 235);
 
                 .languages-link {
-                    width: 24px;
-                    height: 24px;
-                    font-size: 10px;
+                    // width: 24px;
+                    // height: 24px;
+                    // font-size: 10px;
                     margin-bottom: 15px;
                     margin-top: 15px;
                 }
@@ -451,7 +451,7 @@
 
             .nav-menu__toggler {
                 left: 5%;
-                top: 3%;
+                top: 5%;
             }
         }
 
@@ -662,6 +662,7 @@
 
     .project__wrapper .project-list__wrap {
         flex-direction: column;
+        // width: 100vw !important;
     }
 
     .project .project__wrapper {
@@ -674,6 +675,8 @@
 
     .project-list {
         margin-bottom: 25px;
+        align-self: center;
+        width: 100vw;
     }
 
     .news-card--3 {
@@ -690,11 +693,20 @@
     }
 
     .page-header__content .content-main__wrapper {
-        height: 50%;
+        height: 60%;
+    }
+
+    .about-plans .plans-list__window--hover:hover .plans-list__popup {
+        max-width: 562px;
+        width: 100%;
+    }
+
+    .about-plans .plans-list__window--hover:focus {
+        cursor: pointer;
     }
 }
 
-@media (min-width: 901px) and (max-width: 1024px) {
+@media (min-width: 901px) and (max-width: 1435px) {
 
     .page-header__content .content-main__title {
         font-size: 42px;
@@ -731,10 +743,28 @@
     .project__wrapper .project-list__wrap {
         flex-wrap: wrap;
         max-width: 1394px;
+        width: 100vw !important;
         justify-content: center !important;
     }
 
     .project-list__item .item-slide {
         display: none !important;
+    }
+
+    .project-list {
+        margin-bottom: 25px;
+    }
+
+    .news-card--0, .news-card--2 {
+        padding-right: 15px;
+    }
+
+    .slick-dots li button:before {
+        background: transparent;
+        border: 1px solid #FFFFFF;
+    }
+
+    .slick-dots li button:hover:before, .slick-dots li.slick-active button:before {
+        background-color: #FFFFFF;
     }
 }

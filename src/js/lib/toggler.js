@@ -10,8 +10,6 @@ function toggleHamburger(){
 ham.addEventListener("click", toggleHamburger)
 
 // toggle when clicking on links
-
-// METHOD 1
 var menuLinks = document.querySelectorAll(".menuLink")
 menuLinks.forEach( 
   function(menuLink) { 
