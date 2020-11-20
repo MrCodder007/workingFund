@@ -15,12 +15,19 @@ $('.project-list__wrap').slick({
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 900,
+        breakpoint: 1435,
+        settings: "unslick"
+      },
+      {
+        breakpoint: 100,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true
+          slidesToShow: 2,
+          slidesToScroll: 2
         }
+      },
+      {
+        breakpoint: 900,
+        settings: "unslick"
       }
     ]
   });
@@ -36,7 +43,21 @@ $('.project-list__wrap').slick({
       slidesToScroll: 1,
       arrows: false,
       fade: true,
-      asNavFor: `.${addedClass} .item-slide`
+      asNavFor: `.${addedClass} .item-slide`,
+      responsive: [
+        {
+          breakpoint: 1435,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 180,
+          settings: "unslick"
+        }
+      ]
     });
 
     $(this).find('.item-slide').slick({
@@ -45,6 +66,23 @@ $('.project-list__wrap').slick({
       asNavFor: `.${addedClass} .project-list__img`,
       dots: false,
       centerMode: true,
-      focusOnSelect: true
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 1435,
+          settings: "unslick"
+        },
+        {
+          breakpoint: 100,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 180,
+          settings: "unslick"
+        }
+      ]
     });
   });

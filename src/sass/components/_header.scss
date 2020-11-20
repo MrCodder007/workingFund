@@ -30,6 +30,7 @@
             justify-content: center;
             align-items: center;
             max-width: 619px;
+            height: 100vh;
             width: calc(100vw / 3);
             display: inline-flex;
 
@@ -57,8 +58,9 @@
         position: relative;
         width: 100%;
         max-width: 1123px;
-        min-height: 938px;
         background-image: url(../img/bg-img-hero.png);
+        background-position: center;
+        background-repeat: no-repeat;
         background-size: cover;
 
         &-languages {
@@ -184,10 +186,10 @@
     flex-direction: column;
     justify-content: space-between;
     padding-top: 47px;
-    padding-bottom: 130px;
+    // padding-bottom: 130px;
     align-items: center;
     width: 178px;
-    height: 100vh;
+    height: 85vh;
 
     &__toggler {
         display: flex;
@@ -347,6 +349,7 @@
             top: 45%;
             right: 25%;
             background-color: #FFFFFF;
+            border-radius: 3px;
         }
     }
 
@@ -448,7 +451,7 @@
 
             .nav-menu__toggler {
                 left: 5%;
-                top: 4%;
+                top: 3%;
             }
         }
 
@@ -656,11 +659,82 @@
             bottom: -37%;
         }
     }
+
+    .project__wrapper .project-list__wrap {
+        flex-direction: column;
+    }
+
+    .project .project__wrapper {
+        width: auto;
+    }
+
+    .project-list__item .item-slide {
+        display: none !important;
+    }
+
+    .project-list {
+        margin-bottom: 25px;
+    }
+
+    .news-card--3 {
+        display: none;
+    } 
+
+    .slick-dots li button:before {
+        background-color: transparent;
+        border: 1px solid #FFFFFF;
+    }
+
+    .slick-dots li button:hover:before, .slick-dots li.slick-active button:before {
+        background-color: #FFFFFF;
+    }
+
+    .page-header__content .content-main__wrapper {
+        height: 50%;
+    }
 }
 
-@media (min-width: 901px) and (max-width: 1435px) {
+@media (min-width: 901px) and (max-width: 1024px) {
 
     .page-header__content .content-main__title {
         font-size: 42px;
+    }
+
+    .page-header .hero-slider__wrap {
+        bottom: 0;
+        right: 7%;
+    }
+
+    .about-plans .about-adress__location {
+        display: none;
+    }
+
+    .about {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .about-statistic .statistic-subtitle {
+        max-width: 147px;
+    }
+
+    .about-statistic {
+        max-width: 901px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .project {
+        margin-top: 100px;
+    }
+
+    .project__wrapper .project-list__wrap {
+        flex-wrap: wrap;
+        max-width: 1394px;
+        justify-content: center !important;
+    }
+
+    .project-list__item .item-slide {
+        display: none !important;
     }
 }
