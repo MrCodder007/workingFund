@@ -12,7 +12,17 @@ $('.hero-slider__wrap').slick({
 $('.project-list__wrap').slick({
     arrows: true,
     slidesToShow: 3,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true
+        }
+      }
+    ]
   });
 
   let newsCards = $('.project-list')
@@ -26,7 +36,18 @@ $('.project-list__wrap').slick({
       slidesToScroll: 1,
       arrows: false,
       fade: true,
-      asNavFor: `.${addedClass} .item-slide`
+      asNavFor: `.${addedClass} .item-slide`,
+      responsive: [
+        {
+          breakpoint: 900,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            infinite: true
+          }
+        }
+      ]
     });
 
     $(this).find('.item-slide').slick({
@@ -38,6 +59,3 @@ $('.project-list__wrap').slick({
       focusOnSelect: true
     });
   });
-
-
-  

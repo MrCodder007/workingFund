@@ -382,4 +382,275 @@
     }
 }
 
+@media (min-width: 320px) and (max-width: 900px) {
+    
+    .page-header {
 
+        .hero {
+            position: static;
+            width: 100vw;
+            max-width: 900px;
+            min-height: 320px;
+
+            .hero-languages {
+                margin: 0;
+                padding: 0 8px;
+                background-color: rgb(230, 233, 235);
+
+                .languages-link {
+                    width: 24px;
+                    height: 24px;
+                    font-size: 10px;
+                    margin-bottom: 15px;
+                    margin-top: 15px;
+                }
+            }
+
+            .hero-slider__wrap {
+                display: none;
+            }
+        }
+
+        .content-main {
+            width: 0;
+        }
+
+        .nav-menu--active {
+            width: 100vw !important;
+            padding-bottom: 0;
+        }
+    }
+    .page-header__content {
+        width: 0;
+        height: 589px;
+
+        .content-main__title {
+            font-size: 25px;
+            line-height: 30px;
+        }
+
+        .content-main__subtitle {
+            font-size: 16px;
+            margin-top: 49px;
+            margin-bottom: 34px;
+        }
+
+        .nav-menu {
+            width: 50vw;
+
+            .nav-menu__socials {
+                display: none;
+            }
+
+            .nav-menu__scrolling {
+                display: none;
+            }
+
+            .nav-menu__toggler {
+                left: 5%;
+                top: 4%;
+            }
+        }
+
+        .nav-menu--active {
+            
+            .nav-menu__socials {
+                display: block;
+            }
+        }
+    }
+    
+    .site-content {
+
+        .about {
+            padding-top: 38px;
+        }
+    }
+
+    .about-fund__img {
+        display: none;
+    }
+    
+    .about-adress__img {
+        display: none;
+    }
+
+    .about-statistic {
+        flex-direction: column;
+    }
+
+    .about-adress__location {
+        display: none !important;
+    }
+
+    .about-plans__wrap {
+        justify-content: center;
+    }
+
+    .about-fund {
+        justify-content: center;
+        padding: 0 8px;
+    }
+
+    .about-fund__title {
+        font-size: 25px;
+    }
+
+    .about-fund__subtitle {
+        font-size: 16px;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            left: 0;
+            width: 50%;
+        }
+    }
+
+    .statistic-subtitle {
+        font-size: 16px;
+    }
+
+    .about-statistic__container:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .about-statistic {
+        margin-top: 56px;
+    }
+
+    .btn-all {
+        display: none !important;
+    }
+
+    .news {
+        padding: 0 8px;
+    }
+
+    .news-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news__wrapper {
+        width: auto !important;
+    }
+
+    .news-list__img {
+        width: 302px !important;
+    }
+    
+    .description-list {
+        width: 100%;
+    }
+
+    .news-list__item:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    .description-list__subtitle {
+        margin-top: 10px !important;
+    }
+
+    .contact__wrap {
+        flex-direction: column;
+    }
+
+    .contact-feedback__wrapper {
+        width: 100vw;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .contact {
+        justify-content: center;
+    }
+
+    .contact-feedback {
+        width: 100%;
+        max-width: 662px;
+        margin: 0 auto;
+    }
+
+    .input-name {
+        width: 100% !important;
+        margin-bottom: 29px;
+    }
+
+    .input-email {
+        width: 100% !important;
+    }
+
+    .contact-list {
+        margin: 0 auto;
+        margin-bottom: 100px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .feedback-send-button {
+        width: 100% !important;
+    }
+
+    .page-footer__wrap {
+        flex-direction: column;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .footer-nav-menu {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .footer-nav-menu__list {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 210px;
+        max-width: 234px;
+    }
+
+    .footer-nav-menu__item {
+        margin-bottom: 42px;
+    }
+
+    .form-subscribe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        width: 134px;
+        height: 134px;
+    }
+
+    .page-footer__form {
+        align-self: center;
+        max-width: 900px;
+        width: 100%;
+    }
+
+    .form__title {
+        font-size: 16px !important;
+        text-align: center;
+    }
+
+    .form-subscribe__btn {
+        margin-left: 0 !important;
+        width: 100% !important;
+        margin-top: 14px;
+    }
+
+    .form-subscribe__email {
+        width: 100% !important;
+    }
+
+    .underline {
+        bottom: -37% !important;
+    }
+}
