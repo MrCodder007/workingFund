@@ -15,15 +15,16 @@ $('.project-list__wrap').slick({
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1435,
-        settings: "unslick"
+        breakpoint: 2000,
+        settings: {
+          arrows: true,
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
       },
       {
-        breakpoint: 100,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
+        breakpoint: 1435,
+        settings: "unslick"
       },
       {
         breakpoint: 900,
@@ -52,10 +53,6 @@ $('.project-list__wrap').slick({
             slidesToScroll: 1,
             dots: true
           }
-        },
-        {
-          breakpoint: 180,
-          settings: "unslick"
         }
       ]
     });
@@ -70,17 +67,6 @@ $('.project-list__wrap').slick({
       responsive: [
         {
           breakpoint: 1435,
-          settings: "unslick"
-        },
-        {
-          breakpoint: 100,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        },
-        {
-          breakpoint: 180,
           settings: "unslick"
         }
       ]

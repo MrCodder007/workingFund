@@ -13,8 +13,6 @@
         display: flex;
         justify-content: space-between;
         height: 376px;
-        // background-image: url(../img/bg-img-inner-header.png);
-        // background-size: cover;
     }
 
     &__title {
@@ -61,5 +59,102 @@
 
     .nav-menu--active + .main-header__title {
         margin-left: 45.4vw;
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 900px) {
+
+    .main-header .header-languages {
+        margin-right: 0;
+    }
+
+    .nav-menu__toggler {
+        left: 8px;
+    }
+
+    .main-header {
+        padding-right: 8px;
+    }
+
+    .main-header__title {
+        width: 262px;
+    }
+
+    .about-inner-strategy .strategy-fund .strategy-fund__title {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .about-inner-strategy .strategy-fund .strategy-fund__subtitle {
+        font-size: 16px;
+    }
+
+    .about-inner-strategy .strategy-fund {
+        width: auto !important;
+        max-width: 900px;
+        flex-direction: column;  
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .about-inner-strategy .strategy-plans {
+        width: auto !important;
+        max-width: 900px;
+        flex-direction: column;
+        justify-content: center !important;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .about-inner-strategy .strategy-plans .plans-block:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .about-statistic-inner {
+        height: auto !important;
+        min-height: 418px;
+        padding-left: 8px;
+    }
+
+    .about-statistic-inner .about-statistic {
+        margin-bottom: 56px;
+    }
+
+    .about-inner-strategy .strategy-plans .plans-block__title {
+        font-size: 25px !important;
+    }
+
+    .about-structure-inner__wrapper .fund-duties {
+        display: none;
+    }
+
+    .main-header__title {
+        display: none;
+    }
+
+    .main-header, .main-header__wrap {
+        height: 100px;
+    }
+
+    .about-structure-inner, .about-structure-inner__wrapper, .project-header, .project-header__wrap {
+        max-width: 900px;
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .about-structure-inner .fund-structure .structure-position {
+        padding-left: 0 !important;
+    }
+
+    .about-structure-inner .fund-structure .structure-members__wrap {
+        padding-left: 0 !important;
+    }
+
+    .about-structure-inner .fund-structure .structure-members__name {
+        font-size: 16px;
     }
 }

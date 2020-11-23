@@ -346,8 +346,8 @@
 
         &::after,
         &::before {
-            top: 45%;
-            right: 25%;
+            top: 48%;
+            right: 26%;
             background-color: #FFFFFF;
             border-radius: 3px;
         }
@@ -388,6 +388,7 @@
 @media (min-width: 320px) and (max-width: 900px) {
     
     .page-header {
+        height: 450px;
 
         .hero {
             position: static;
@@ -421,6 +422,7 @@
         .nav-menu--active {
             width: 100vw !important;
             padding-bottom: 0;
+            max-width: 900px;
         }
     }
     .page-header__content {
@@ -457,6 +459,11 @@
 
         .nav-menu--active {
             
+            .nav-menu__toggler--active {
+                top: 0;
+                left: 0;
+            }
+
             .nav-menu__socials {
                 display: block;
             }
@@ -704,6 +711,37 @@
     .about-plans .plans-list__window--hover:focus {
         cursor: pointer;
     }
+
+    .project-infostructure__img2, .project-infostructure__img3 {
+        width: 320px !important;
+        height: 150px !important;
+        background-image: url(../img/project-schema2.png);
+        background-size: contain !important;
+        background-repeat: no-repeat;
+    }
+
+    .project-page .project-block {
+        position: absolute;
+        min-width: 320px;
+        width: 100% !important;
+    }
+
+    .project-block, .hero-languages {
+        margin-right: 8px !important;
+    }
+
+    .project-page .project-bg {
+        background-size: contain !important;
+    }
+
+    .project-page .project-block__container {
+        margin-top: 42% !important;
+        padding: 0 8px;
+    }
+
+    .project-page .project-block__btns .button-next {
+        margin-top: 10px;
+    }
 }
 
 @media (min-width: 901px) and (max-width: 1435px) {
@@ -766,5 +804,100 @@
 
     .slick-dots li button:hover:before, .slick-dots li.slick-active button:before {
         background-color: #FFFFFF;
+    }
+
+    .news-list {
+        flex-wrap: wrap;
+        justify-content: space-evenly !important;
+    }
+
+    .contact, .contact__wrap {
+        flex-direction: column;
+    }
+
+    .contact-feedback__wrapper {
+        width: 100vw;
+    }
+
+    .contact-list {
+        margin: 0 auto;
+        padding-top: 0;
+        padding-bottom: 51px;
+    }
+
+    .contact-feedback {
+        margin: 0 auto;
+    }
+
+    .form-subscribe {
+        width: 300px;
+    }
+
+    .page-footer__form .form-subscribe__btn {
+        margin-left: 0;
+        width: 97%;
+        margin-top: 7px;
+    }
+
+    .page-footer__wrap {
+        justify-content: space-evenly;
+    }
+
+    .news-list__item {
+        margin-bottom: 10px;
+    }
+
+    .strategy-fund {
+        flex-direction: column;
+        min-width: 901px;
+        width: 100% !important;
+        align-items: inherit;
+    }
+
+    .strategy-fund__title {
+        margin-bottom: 15px;
+    }
+
+    .about-inner-strategy .strategy-plans {
+        flex-direction: column;
+        min-width: 901px;
+        width: 100% !important;
+        align-items: center;
+    }
+
+    .about-statistic-inner {
+        height: 285px !important;
+    }
+
+    .project-portfolio__img {
+        justify-content: center !important;
+    }
+
+    .project-infostructure__img {
+        width: 901px !important;
+        height: 386px !important;
+        background-image: url(../img/project-schema.png);
+        background-repeat: no-repeat;
+        background-size: contain !important;
+    }
+
+    .project-info, .project-info__wrap {
+        padding: 0 8px;
+    }
+
+    .building-stage .inline-cities, .building-stage .stage-faza {
+        flex-wrap: wrap;
+    }
+
+    .building-stage .inline-cities .city-block:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .project-infostructure__img2, .project-infostructure__img3 {
+        width: 901px !important;
+        height: 386px !important;
+        background-image: url(../img/project-schema2.png);
+        background-size: contain !important;
+        background-repeat: no-repeat;
     }
 }

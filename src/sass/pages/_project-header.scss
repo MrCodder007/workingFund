@@ -100,3 +100,85 @@
 .bg-project-img3 {
     background-image: url(../img/about-project-bg-3.png);
 }
+
+@media (min-width: 320px) and (max-width: 900px) {
+    
+    // .project-img1 {
+    //     display: none;
+    // }
+
+
+    .project-page .project-block__btns {
+        flex-direction: column;
+    }
+
+    .project-page .project-block__container {
+        max-width: 900px;
+        width: auto !important;
+    }
+
+    .project-page .project-block__btns .button-in {
+        width: 100% !important;
+    }
+
+    .project-page .project-block__btns .button-next {
+        justify-content: center;
+    }
+
+    .bg-project-img1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .project-info__img {
+        display: none;
+    }
+
+    .project-info__wrap {
+        max-width: 900px !important;
+        width: 100% !important;
+        justify-content: center !important;
+    }
+
+    .project-info .project-info__title {
+        font-size: 25px;
+    }
+
+    .project-info .project-info__subtitle {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .project-info__container .project-info__stage span {
+        font-size: 16px;
+    }
+
+    .project-info__stage .stage-text {
+        font-size: 16px;
+    }
+
+    .project-info__container .project-info__apart .apart-text {
+        font-size: 16px;
+    }
+
+    .project-info__plan {
+        padding: 0 8px;
+    }
+
+    .project-header .header-languages {
+        margin-right: 0;
+    }
+
+    .project-info__stage {
+        margin-right: 30px;
+    }
+
+    .project-portfolio__img {
+        justify-content: center !important;
+    }
+
+    .project-portfolio__img .kvartiri__img {
+        width: 304px !important;
+        height: 176px !important;
+    }
+}
