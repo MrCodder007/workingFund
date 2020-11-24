@@ -9,4 +9,5 @@ PageList:
 - file: project-apart.html
 - file: project-complex.html
 - file: project-gymnasium.html
+- file: contacts.html
   ready: 50
