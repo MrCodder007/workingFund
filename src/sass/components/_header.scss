@@ -758,7 +758,32 @@
     .project-page .hero-languages {
         margin-right: 8px;
     }
+
+    .building-stage__wrap {
+        max-width: 900px !important;
+        width: 100%;
+    }
+
+    .building-stage .inline-cities, .building-stage .stage-faza {
+        flex-direction: column;
+    }
+
+    .contact-list {
+        padding-top: 0;
+    }
+
+    .project-header__main {
+        max-width: 900px;
+        width: 100%;
+    }
+
+    .project-header__sub {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
 }
+
+
 
 @media (min-width: 901px) and (max-width: 1435px) {
 
