@@ -741,6 +741,7 @@
 
     .project-page .project-block__btns .button-next {
         margin-top: 10px;
+        margin-bottom: 30px;
     }
 
     .kvartiri__img:nth-child(2n) {
@@ -762,6 +763,9 @@
     .building-stage__wrap {
         max-width: 900px !important;
         width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .building-stage .inline-cities, .building-stage .stage-faza {
@@ -780,6 +784,22 @@
     .project-header__sub {
         font-size: 25px !important;
         line-height: 35px !important;
+    }
+
+    .project-infostructure__img {
+        width: 320px!important;
+        height: 150px!important;
+        background-image: url(../img/project-schema2.png);
+        background-size: contain!important;
+        background-repeat: no-repeat;
+    }
+
+    .about-structure-inner .fund-structure .structure-members__name {
+        font-size: 16px !important;
+    }
+
+    .about-structure-inner .fund-structure .structure-members__wrap {
+        margin-left: 21px;
     }
 }
 

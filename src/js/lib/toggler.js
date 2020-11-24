@@ -17,21 +17,21 @@ menuLinks.forEach(
   }
 )
 
-var navbar = document.querySelector(".nav-menu__contacts")
-var ham = document.querySelector(".nav-menu__toggler")
+// var navbar = document.querySelector(".nav-menu__contacts")
+// var ham = document.querySelector(".nav-menu__toggler")
 
-// toggles hamburger menu in and out when clicking on the hamburger
-function toggleHamburger(){
-  navbar.classList.toggle("nav-menu__contacts--active")
-  ham.classList.toggle("nav-menu__toggler--active")
-}
+// // toggles hamburger menu in and out when clicking on the hamburger
+// function toggleHamburger(){
+//   navbar.classList.toggle("nav-menu__contacts--active")
+//   ham.classList.toggle("nav-menu__toggler--active")
+// }
 
-ham.addEventListener("click", toggleHamburger)
+// ham.addEventListener("click", toggleHamburger)
 
-// toggle when clicking on links
-var menuLinks = document.querySelectorAll(".menuLink")
-menuLinks.forEach( 
-  function(menuLink) { 
-    menuLink.addEventListener("click", toggleHamburger) 
-  }
-)
+// // toggle when clicking on links
+// var menuLinks = document.querySelectorAll(".menuLink")
+// menuLinks.forEach( 
+//   function(menuLink) { 
+//     menuLink.addEventListener("click", toggleHamburger) 
+//   }
+// )
