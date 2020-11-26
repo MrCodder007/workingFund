@@ -969,5 +969,10 @@
     // max-width: 1920px;
     box-shadow: 0 0 0 9999px rgba(0,0,0, 0.3);
     z-index: -1;
-    position: fixed;
+}
+
+@media (min-width: 1435px) and (max-width: 1600px) {
+    .slick-arrow {
+        display: none !important;
+    }
 }

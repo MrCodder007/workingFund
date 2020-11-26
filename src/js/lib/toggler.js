@@ -15,15 +15,13 @@ menuLinks.forEach(
   function(menuLink) { 
     menuLink.addEventListener("click", toggleHamburger) 
   }
-)
-
-var list = document.querySelector(".plans-list__window")
-var listBottom = document.querySelector(".plans-list__window--hover")
+);
 
 $('.plans-list__window').click( function(){
   if ( $(this).hasClass('plans-list__window--hover') ) {
       $(this).removeClass('plans-list__window--hover');
   } else {
+
       $(this).addClass('plans-list__window--hover');    
   }
 });
