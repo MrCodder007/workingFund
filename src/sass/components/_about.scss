@@ -79,31 +79,35 @@
                 }
             }    
             
-            &__window--hover:hover {
-                cursor: pointer;
+            &__window--hover {
 
-                .icon-hover-arrow {
-                    transform: rotate(180deg);
-                }
-
-                .plans-list__popup {
-                    display: block;  
-                    top: 130%;
-                    width: 562px;
-                    font-weight: 600;
-                    font-size: 18px;
-                    padding: 10px;
-                    line-height: 22px;
-                    color: #000;
-                    border-radius: 5px;
-                    border: 1px solid #FFFFFF;
-                    position: absolute;
-                    box-shadow: 0px 4px 68px 1px rgba(103, 116, 125, 0.35);
-                    background-color: #FFFFFF;
-                    z-index: 100;
-
-                    span {
-                        font-weight: 400;
+                &:hover,
+                &:focus {
+                    cursor: pointer;
+    
+                    .icon-hover-arrow {
+                        transform: rotate(180deg);
+                    }
+    
+                    .plans-list__popup {
+                        display: block;  
+                        top: 130%;
+                        width: 562px;
+                        font-weight: 600;
+                        font-size: 18px;
+                        padding: 10px;
+                        line-height: 22px;
+                        color: #000;
+                        border-radius: 5px;
+                        border: 1px solid #FFFFFF;
+                        position: absolute;
+                        box-shadow: 0px 4px 68px 1px rgba(103, 116, 125, 0.35);
+                        background-color: #FFFFFF;
+                        z-index: 100;
+    
+                        span {
+                            font-weight: 400;
+                        }
                     }
                 }
             }
