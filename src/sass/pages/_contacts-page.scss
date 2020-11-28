@@ -3,8 +3,28 @@
     width: 100%;
 
     .contacts-toggler {
+        text-decoration: none;
+        display: flex;
+        color: #183245;
+        align-items: center;
         position: relative;
-        margin-left: 50px;
+        padding-left: 143px;
+
+        &:hover {
+            transform: translateX(-5px);
+
+            svg {
+                fill: #92bede;
+            }
+
+            p {
+                color: #92bede;
+            }
+        }
+
+        p {
+            margin-left: 21px;
+        }
     }
 
     .nav-menu__wrap {
@@ -134,6 +154,10 @@
             background-color: #000;
             margin-left: 50px;
         }
+    }
+
+    .contact-social:hover {
+        fill: #92BEDE;
     }
 
     .contact__wrap {

@@ -73,7 +73,4 @@ $('.project-list__wrap').slick({
     });
   });
 
-  // $(".nav-menu__toggler").click(function () {
-  //   $(".nav-menu__toggler").removeClass("shadows");
-  //   $(".nav-menu__toggler--active").addClass("shadows");
-  //   })
+ 
