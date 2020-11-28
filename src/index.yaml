@@ -10,4 +10,5 @@ PageList:
 - file: project-complex.html
 - file: project-gymnasium.html
 - file: contacts.html
+- file: news-page.html
   ready: 50
