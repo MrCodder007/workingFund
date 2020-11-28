@@ -984,7 +984,16 @@
 }
 
 @media (min-width: 1435px) and (max-width: 1600px) {
+
     .slick-arrow {
-        display: none !important;
+        top: -10% !important;
+    }
+
+    .slick-prev {
+        left: 89% !important;
+    }
+
+    .slick-next {
+        right: 1% !important;
     }
 }
