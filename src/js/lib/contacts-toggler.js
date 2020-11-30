@@ -12,3 +12,14 @@ $('.overlay').click(function (evt) {
 		$('.nav-menu__toggler').removeClass('nav-menu__toggler--active');
 	}
 });
+
+// const mainElOffetTop = document.querySelector('main').offsetTop;
+// console.log(mainElOffetTop);
+// $(window).on("scroll", function() {
+// 	if($(window).scrollTop() > mainElOffetTop) {
+// 		$(".project-info").addClass("btn-clr");
+// 	} else {
+// 		//remove the background property so it comes transparent again (defined in your css)
+// 		$(".header").removeClass("active");
+// 	}
+// });

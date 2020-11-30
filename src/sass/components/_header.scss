@@ -821,6 +821,33 @@
     .about-structure-inner .fund-structure .structure-members__wrap {
         margin-left: 21px;
     }
+
+    .contacts-header .nav-menu__wrap {
+        max-width: 662px !important;
+        margin: 0 auto;
+    }
+
+    .contacts-header .contacts-toggler {
+        padding-left: 8px !important;
+    }
+
+    .contacts-header .contacts-languages {
+        margin-right: 8px !important;
+    }
+
+    .contacts-header .social-list {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .contacts-header .social-list__item {
+        margin-left: 11px !important;
+    }
+
+    .contacts-header .social-list__item {
+        width: 40px !important;
+        height: 40px !important;
+    }
 }
 
 
@@ -981,6 +1008,28 @@
         background-size: contain !important;
         background-repeat: no-repeat;
     }
+
+    .social-list {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .contact-feedback__wrapper {
+        padding-left: 0;
+    }
+
+    .contacts-header .nav-menu__wrap {
+        max-width: 662px !important;
+        margin: 0 auto;
+    }
+
+    .contacts-header .contacts-toggler {
+        padding-left: 0 !important;
+    }
+
+    .contacts-header .contacts-languages {
+        margin-right: 0 !important;
+    }
 }
 
 @media (min-width: 1435px) and (max-width: 1600px) {
@@ -995,5 +1044,61 @@
 
     .slick-next {
         right: 1% !important;
+    }
+}
+
+@media (min-width:1024px) and (max-width: 1280px) {
+    .project-page .project-bg {
+        background-position: center;
+        background-size: 100vw 100vh !important;
+    }
+
+    .project-page .project-block {
+        padding: 0 8px;
+    }
+
+    .page-header .hero-languages {
+        margin-right: 0;
+    }
+
+    .social-list {
+        margin: 0;
+    }
+
+    .project-info__plan {
+        margin-right: 8px;
+    }
+
+    .project-portfolio {
+        margin: 0 8px;
+    }
+
+    .building-stage {
+        padding: 0 8px;
+    }
+
+    .building-stage .inline-cities .city-block:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .contacts-header .social-list {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .about-inner-strategy .strategy-plans .plans-block {
+        margin-bottom: 50px;
+    }
+
+    .strategy-fund__title {
+        margin-bottom: 30px;
+    }
+
+    .news {
+        margin: 0 8px;
+    }
+
+    .project {
+        margin: 0 8px;
     }
 }
