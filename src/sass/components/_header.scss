@@ -916,7 +916,7 @@
 
     .news-list {
         flex-wrap: wrap;
-        justify-content: space-evenly !important;
+        // justify-content: space-evenly !important;
     }
 
     .contact, .contact__wrap {
@@ -1100,5 +1100,41 @@
 
     .project {
         margin: 0 8px;
+    }
+
+    .about__wrapper {
+        max-width: 1080px;
+    }
+
+    .project__wrapper {
+        max-width: 1080px;
+    }
+
+    .news__wrapper {
+        max-width: 1080px !important;
+    }
+
+    .news-list__item:nth-child(4n) {
+        margin-top: 50px;
+    }
+
+    .page-header .hero-languages {
+        margin-right: 8px;
+    }
+
+    .about-statistic-inner .about-statistic {
+        max-width: 1080px !important;
+    }
+
+    .project__wrapper .project-list__wrap {
+        max-width: 1080px !important;
+    }
+
+    .building-stage__wrap {
+        max-width: 1080px !important;
+    }
+
+    .project-portfolio__wrap {
+        max-width: 1080px !important;
     }
 }
