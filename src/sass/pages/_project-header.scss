@@ -33,6 +33,17 @@
                 background-color: #FFFFFF;
             }
         }
+
+        .btn-color {
+
+            &::before {
+                background-color: #000;
+            }
+
+            &::after {
+                background-color: #000;
+            }
+        }
     }
 
     &__main {
