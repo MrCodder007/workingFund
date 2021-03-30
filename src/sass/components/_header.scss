@@ -1,8 +1,9 @@
 .page-header {
-    display: inline-flex;
+    display: flex;
     max-width: 1920px;
     width: 100%;
     min-height: 938px;
+    margin: 0 auto;
 
     &__content {
         width: 797px;
@@ -209,7 +210,7 @@
     // padding-bottom: 130px;
     align-items: center;
     width: 178px;
-    height: 85vh;
+    height: auto;
 
     &__toggler {
         display: flex;
@@ -283,13 +284,14 @@
 
 .nav-menu--active {
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
     position: fixed;
     transform: translateX(0);
     background-color: #F4F5F9;
     max-width: 435px;
     padding-left: 73px;
-    height: 100vh;
+    height: 100%;
+    padding-bottom: 5%;
     width: 100%;
     z-index: 999999999;
     transition: all .5s ease-in-out;
@@ -478,6 +480,8 @@
         }
 
         .nav-menu--active {
+
+
             
             .nav-menu__toggler--active {
                 top: 0;

@@ -5,8 +5,8 @@
 .project-page {
     height: 100vh;
     display: flex;
-    max-width: 1920px;
-    width: 100vw;
+    max-width: 100%;
+    width: 100%;
     height: 100vh;
     position: relative;
 
@@ -33,22 +33,77 @@
     }
 
     .project-bg {
+        position: relative;
         background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
-        width: 1224px;
+        width: 33.3%;
         height: 100vh;
+
+        &:not(:nth-child(3)) {
+            margin-right: 3px;
+        }
+
+        &__title {
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 61px;
+            margin-bottom: 35px;
+            color: #FFFFFF;
+        }
+
+        &__item {
+            min-height: 275px;
+            height: 100%;
+        }
+
+        &__list {
+            display: flex;
+            align-items: center;
+            margin-bottom: 35px;
+
+            p {
+                display: block;
+                width: 7.47px;
+                height: 7.47px;
+                min-width: 7.47px;
+                background-color: #fff;
+                border-radius: 50%;
+                margin-right: 18px;
+            }
+
+            div {
+                font-size: 18px;
+                line-height: 22px;   
+                color: #FFFFFF;
+            }
+        }
+
+        &__wrap {
+            position: absolute;
+            bottom: 0;
+            padding-left: 80px;
+            padding-bottom: 10%;
+        }
+    }
+
+    .content-wrap {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, #000000 1.17%, rgba(0, 0, 0, 0.53) 50.2%, rgba(0, 0, 0, 0) 75%);
     }
 
     .project-img1 {
-        background-image: url(../img/project-apart-block.png);
+        background-image: url(../img/finished-project.jpg);
     }
 
     .project-img2 {
-        background-image: url(../img/project-complex-block.png);
+        background-image: url(../img/present-project.jpg);
     }
 
     .project-img3 {
-        background-image: url(../img/project-gymnasium-block.png);
+        background-image: url(../img/future-project.jpg);
     }
 
     .project-block {
@@ -106,7 +161,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 248px;
+            width: 152px;
             height: 57px;
             background: #92BEDE;
             box-shadow: 0px 11px 32px rgba(156, 177, 193, 0.32);
